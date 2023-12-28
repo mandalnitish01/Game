@@ -7,8 +7,8 @@ let answer;
 
 function renderRandomNumebr() {
   input.value = null;
-  let rand1 = Math.floor(Math.random() * 100);
-  let rand2 = Math.floor(Math.random() * 100);
+  let rand1 = Math.floor(Math.random() * 1000);
+  let rand2 = Math.floor(Math.random() * 1000);
   answer = rand1 + rand2;
   number1.textContent = rand1;
   number2.textContent = rand2;
